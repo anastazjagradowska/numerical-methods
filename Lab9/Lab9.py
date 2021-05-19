@@ -66,7 +66,6 @@ def vector_R(step, N, a, b):
 def plot_chart(R, y, step):
   p.plot(np.arange(-5, 5 + step, step), [i for i in R])
   p.plot(np.arange(-5, 5 + step, step), [i for i in y])
-  # p.legend(["exp($-x^2$)", '$R_N,_M$ = ({},{})'.format(N,M)])
   p.legend(["exp($-x^2$)", '$R_{},_{}$'.format(N, M)])
   p.xlabel("x")
   p.ylabel("f(x)")
